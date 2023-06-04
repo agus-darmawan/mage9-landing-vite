@@ -82,13 +82,12 @@ const NavLinks = () => {
                     {slinks.Head}
 
                     <span className="text-xl md:mt-1 md:ml-2 inline">
-                      <ion-icon
-                        name={`${
+                      {`${
                           subHeading === slinks.Head
-                            ? "chevron-up"
+                            ? 
                             : "chevron-down"
                         }`}
-                      ></ion-icon>
+                      >
                     </span>
                   </h1>
                   <div
